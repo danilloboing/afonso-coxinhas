@@ -1,0 +1,86 @@
+#sobre-mim {
+    width: 100%;
+    border-top: 1px solid #2edf19;
+}
+
+.ajustador-2 {
+    padding: 40px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1064px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    margin: auto;
+}
+
+
+.imagem-conectando {
+    width: 320px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+    border: 1px solid #2edf19;
+}
+
+.imagem-conectando:hover {
+    transform: scale(1.05);
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sobre-mim p {
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 406.25px;
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        gap: 60px;
+        text-align: center;
+    }
+
+    .imagem-conectando {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:950px){
+    .ajustador-2 {
+        gap: 60px;
+        text-align: center;
+    }
+
+    .imagem-conectando {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:500px){
+    .sobre-mim {
+        text-indent: 30px;
+        font-size: 20px;
+        max-width: 90%;
+        text-align: center;
+    }
+}

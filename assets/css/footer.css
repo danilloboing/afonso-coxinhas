@@ -1,0 +1,96 @@
+.footer {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+}
+
+.footer-conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.contato-creditos {
+    font-family: monospace;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+.footer-logos {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#gmail {
+    width: 40px;
+    height: 40px;
+}
+
+.botao-voltar {
+    background-color: rgb(6, 218, 24);
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 2em auto 0;
+}
+
+.botao-voltar:hover {
+    background-color: #0b8200;
+}
+
+.botao-voltar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.copyright {
+    
+    font-size: 0.6em;
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+@media (max-width:1200px) {
+    .contato-creditos{
+        text-align: center;
+    }
+    
+    .footer-conteiner {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .icons{
+        justify-content: center;
+    }
+}
+
+.links1, .links2, .links3 {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.links:hover {
+    transform: scale(110%);
+}
+
