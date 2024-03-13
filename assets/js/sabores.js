@@ -1,10 +1,10 @@
 const meuNome = document.querySelector('.minha-bio');
 const fName = meuNome.innerHTML = '';
 const botaoVerMais = document.querySelector('button');
-const habilidades = document.querySelectorAll('.escondido');
+const sabores = document.querySelectorAll('.escondido');
 const node = document.querySelector('#fundo')
 meuNome.innerHTML='';
-const skills = document.querySelectorAll('.skill-box');
+const skills = document.querySelectorAll('.sabor-box');
 const descricao = document.querySelector('.texto-descricao');
 
 const sobreSkill = [
@@ -42,11 +42,11 @@ skills.forEach(  (elemento, index) => {
     } )
 } );
 
-function maisHabilidades (elemento) {
+function maissabores (elemento) {
     elemento.addEventListener('click', cliqueVer)
 }
 function cliqueVer (e) {
-    habilidades.forEach( (elemento) => {
+    sabores.forEach( (elemento) => {
         if (elemento.classList.contains('escondido')) {
             elemento.classList.remove('escondido');
             elemento.classList.add('visivel');
@@ -59,5 +59,5 @@ function cliqueVer (e) {
     } )
 }
 
-maisHabilidades(botaoVerMais);
+maissabores(botaoVerMais);
 

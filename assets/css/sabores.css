@@ -1,9 +1,9 @@
-#habilidades {
+#sabores {
     background-color: white;
     border-top: 1px solid orange;
 }
 
-.habilidades-pd h3 { 
+.sabores-pd h3 { 
     text-align: center;
     padding: 100px;
     font-family:'Audiowide', cursive;
@@ -12,7 +12,7 @@
     color: rgb(243, 69, 0);
 }
 
-.skills-descricao {
+.coxinhas-descricao {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -20,7 +20,7 @@
     padding-bottom: 70px;
 }
 
-.conteiner-skills {
+.conteiner-sabores {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@
     max-width: 60%;
 }
 
-.skill-box {
+.sabor-box {
     height: 10em;
     width: 10em;
     background-color: #ffb05b;
@@ -42,7 +42,7 @@
     transition: ease 0.3s;
 }
 
-.skill-box:hover {
+.sabor-box:hover {
     background-color: white;
     transform: scale(1.05);
 }
@@ -62,12 +62,12 @@
         height: 260px;
     }
 
-    #habilidades {
+    #sabores {
         display: flex;
         justify-content: center;
     }
 
-    .skills-descricao {
+    .coxinhas-descricao {
         display: flex;
         flex-direction: column-reverse;
         /* width: 535px; */
@@ -77,13 +77,13 @@
         align-items: center;
     }
 
-    .skills-descricao p {
+    .coxinhas-descricao p {
         text-align: center;
     }
 
 }
 @media (max-width:950px) {
-    .conteiner-skills {
+    .conteiner-sabores {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -98,7 +98,7 @@
 
 }
 
-.skill-box .icones-habilidades {
+.sabor-box .imagem-coxinhas {
     transition: ease-in-out 0.3s;
     width: inherit;
 }

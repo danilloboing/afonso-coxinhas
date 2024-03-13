@@ -50,7 +50,7 @@ li a {
 
 li a:hover {
     transition: 0.4s;
-    color: orange;
+    color: rgb(188, 69, 0);
 }
 
 .centralizador {
