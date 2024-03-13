@@ -1,6 +1,6 @@
 #habilidades {
-    background-color: #000000;
-    border-top: 1px solid #2edf19;
+    background-color: white;
+    border-top: 1px solid orange;
 }
 
 .habilidades-pd h3 { 
@@ -47,7 +47,7 @@
 }
 
 .conteiner-descricao {
-    color: white;
+    color: black;
     font-family: 'Quando', serif;
     font-size: 20px;
     max-width: 35%;

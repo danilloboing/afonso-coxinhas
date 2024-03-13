@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: rgb(24, 24, 24);
+    background-color: white;
     margin: 0;
 }
 
@@ -14,7 +14,7 @@
 
 .contato-creditos {
     font-family: monospace;
-    color: white;
+    color: black;
     font-size: 15px;
     padding: 10px 0;
 }

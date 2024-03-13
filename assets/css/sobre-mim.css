@@ -1,6 +1,7 @@
 #sobre-mim {
     width: 100%;
-    border-top: 1px solid #2edf19;
+    border-top: 1px solid orange;
+    background-color: white;
 }
 
 .ajustador-2 {
@@ -16,7 +17,7 @@
 h1 {
     font-family: 'Audiowide', cursive;
     font-size: 3em;
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 60px;
     margin: auto;
@@ -29,7 +30,7 @@ h1 {
     position: relative;
     cursor: pointer;
     transition: ease 1s;
-    border: 1px solid #2edf19;
+    border: 1px solid orange;
 }
 
 .imagem-conectando:hover {
@@ -43,10 +44,9 @@ h1 {
 }
 
 .sobre-mim p {
-    text-indent: 30px;
     font-size: 20px;
     max-width: 406.25px;
-    color: white;
+    color: black;
 }
 
 @media (max-width:1200px) {

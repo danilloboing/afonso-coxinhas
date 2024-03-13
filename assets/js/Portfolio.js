@@ -8,12 +8,12 @@ const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 
 const sobreSkill = [
-    '<p>HTML</p><p style="margin-bottom: 10px;">É um bloco de construção da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>',
-    '<p>CSS</p><p style="margin-bottom: 10px;">Trata-se de uma linguagem de marcação, amplamente utilizada com HTML ou XHTML, e representa diversas possibilidades para a formatação. O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.</p>',
-    '<p>JavaScript</p><p style="margin-bottom: 10px;">É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p>',
-    '<p>Git</p><p style="margin-bottom: 10px;">O Git é um sistema de controle de versão de código-fonte aberto. Ele facilita esse tipo de colaboração no projeto por meio do controle de versão distribuído de arquivos que residem em repositórios.</p>',
-    '<p>Github</p><p style="margin-bottom: 10px;">É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>',
-    '<p>Bootstrap</p><p style="margin-bottom: 10px;">É um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.</p>'
+    '<h2>Frango</h2><p style="margin-bottom: 10px;">Deliciosas coxinhas de frango recheadas com suculento frango desfiado, um sabor irresistível em cada mordida!.</p>',
+    '<h2>Costela</h2><p style="margin-bottom: 10px;">Saborosas coxinhas de costela, com recheio suculento e tempero irresistível, uma explosão de sabor em cada pedaço!</p>',
+    '<h2>Presunto e Queijo</h2><p style="margin-bottom: 10px;">Deliciosas coxinhas de presunto e queijo, recheadas com o melhor presunto e queijo derretido, uma combinação irresistível de sabores!.</p>',
+    '<h2>Carne</h2><p style="margin-bottom: 10px;">Coxinhas de carne, com um recheio irresistível e um toque de picância, perfeitas para quem ama sabores intensos!</p>',
+    '<h2>Calabresa</h2><p style="margin-bottom: 10px;">Coxinhas de calabresa, com um recheio irresistível e um toque de picância, perfeitas para quem ama sabores intensos!</p>',
+    '<h2>Brigadeiro</h2><p style="margin-bottom: 10px;">Coxinhas de brigadeiro, com um irresistível recheio cremoso envolto em uma casquinha crocante, uma combinação perfeita de texturas e sabores!</p>'
   ]
   
 const dataInicio = [
@@ -38,7 +38,7 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = '/* Passe o mouse por cima de alguma habilidade para ler a descrição */';
+        descricao.innerHTML = 'Passe o mouse por cima dos sabores para ver a Descrição!';
     } )
 } );
 

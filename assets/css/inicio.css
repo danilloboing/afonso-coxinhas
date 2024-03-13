@@ -20,13 +20,16 @@ body {
 
 
 #logo {
-    height: 4em;
+    height: 120px;
+    width: 120px;
+    background-color: transparent;
     padding: 15px 400px 15px 0;
     display: block;
 }
 
 .logo.esquerda {
     display: flex;
+    float: left;
     align-items: center;
     
 }
@@ -39,7 +42,7 @@ ul {
     width: 100%;
 }
 li a {
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: none;
     font-size: 1.2em;
     padding-left: 20px;
@@ -47,7 +50,7 @@ li a {
 
 li a:hover {
     transition: 0.4s;
-    color: #0bfa0b;
+    color: orange;
 }
 
 .centralizador {
@@ -57,7 +60,7 @@ li a:hover {
 /* barra de navegação terminada */
 
 #inicio {
-    background: linear-gradient(63.13deg, #000000 51.04%, #0c6d01 51.05%);
+    background: linear-gradient(63.13deg, white 51.04%, orange 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -76,7 +79,7 @@ li a:hover {
 
 .apresentacao {
     max-width: 741px;
-    color:white;
+    color:Black;
 }
 
 p {
@@ -143,7 +146,8 @@ p {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #0c6d01;
+        background: orange;
+        float: left;
         height: auto;
     }
 
@@ -209,7 +213,7 @@ p {
     .barra-menu{
         height: 100vh;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
     }
     
@@ -229,7 +233,7 @@ p {
     }
 
     #logo {
-        height: 8em;
+        height: 10em;
         padding: 0;
     }
 
