@@ -7,8 +7,9 @@
     text-align: center;
     padding: 100px;
     font-family:'Audiowide', cursive;
-    font-size: 2em;
+    font-size: 3em;
     margin: 0;
+    color: rgb(243, 69, 0);
 }
 
 .skills-descricao {
@@ -30,7 +31,7 @@
 .skill-box {
     height: 10em;
     width: 10em;
-    background-color: #C4C4C4;
+    background-color: #ffb05b;
     border-radius: 20px;
     display: flex;
     justify-content: center;

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width", initial-scale=1>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/inicio.css">
-    <link rel="stylesheet" href="assets/css/sobre-mim.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="assets/css/projetos.css">
-    <link rel="stylesheet" href="assets/css/habilidades.css">
+    <link rel="stylesheet" href="assets/css/sabores.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/pedidos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
@@ -41,8 +42,8 @@
                         <ul onclick="getElementById('close-menu').checked=false;">
                             <li><a href="#inicio"> Início</a></li>
                             <li><a href="#sobre-mim">Sobre</a></li>
-                            <li><a href="#sobre-mim">Faça seu pedido</a></li>
                             <li><a href="#habilidades">Sabores</a></li>
+                            <li><a href="#pedidos">Faça seu pedido</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -56,11 +57,10 @@
                     <div class="ajustador organizador">
                         <div class="apresentacao">
                             <p class="descricao">
-                            <p>Bem vindos ao Site<br></p>
-                            <span class="minha-bio" data-elements="Afonsos Coxinhas"></span>
+                            <p>Bem vindos ao<br></p>
+                            <span class="minha-bio" data-elements="Afonso's Coxinhas"></span>
                         </div>
                         <div class="desenho">
-                            
                         </div>    
                     </div>
                 </div>
@@ -86,7 +86,7 @@
             <div class="centralizador">
                 <div class="habilidades-pd">
                     <h3 class="project">Sabores</h3>
-                    <div class="skills-descricao"> <!--as habilidades estão descritas no arquivo Portfolio.js-->
+                    <div class="skills-descricao"> 
                         <div class="conteiner-skills">
                             <div class="skill-box skill1 html-skill">
                                 <img
@@ -134,6 +134,36 @@
                 </div>
             </div>
         </section>
+        <section class="pedidos">
+            <div class="container">
+                <h2>Faça seu pedido!</h2>
+                <form id="pedidoForm">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade de Coxinhas:</label>
+                        <input type="number" id="quantidade" name="quantidade" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sabor">Sabor:</label>
+                        <select id="sabor" name="sabor" required>
+                            <option value="">Selecione o sabor</option>
+                            <option value="Frango">Frango</option>
+                            <option value="Carne">Carne</option>
+                            <option value="Queijo">Queijo</option>
+                            <option value="Calabresa">Calabresa</option>
+                        </select>
+                    </div>
+                    <button type="submit">Enviar Pedido</button>
+                </form>
+            </div>
+        </section>
         <footer class="footer">
             <div class="footer-conteiner">
                 <div class="icons">
@@ -143,6 +173,7 @@
             </div>
             <p class="copyright">&copy; Afonsos Coxinhas</p>
         </footer>
+        <script src="assets/js/script.js"></script>
         <script src="assets/js/maquina_escrever.js"></script>
         <script src="assets/js/scroll.js"></script>
         <script src="assets/js/Portfolio.js"></script>

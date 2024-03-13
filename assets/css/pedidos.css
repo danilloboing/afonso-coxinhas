@@ -1,0 +1,119 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    gap: 30px;
+    padding: 25px 0 ;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.form-field label {
+    width: 10%;
+    text-align: left;
+    font-weight: bolder;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff6600;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ff3300;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3300;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+.form-field input {
+    width: 50%;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+
+.botoes-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 15px;
+}
+
+.botao {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.reset {
+
+}
+
+.submit {
+
+}
+
+.submit:hover {
+
+}
+
+.reset:hover {
+
+}
